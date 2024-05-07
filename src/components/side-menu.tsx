@@ -11,7 +11,7 @@ interface ISideMenu<T> {
 
 const SideMenu: FC<ISideMenu<Menu>> = ({ menuItems }) => {
   return (
-    <aside className="col-span-2 bg-white p-4">
+    <aside className="col-span-1 bg-white p-4">
 
       {/* brand */}
       <section className="flex flex-row justify-between">

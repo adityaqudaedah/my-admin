@@ -57,7 +57,7 @@ const Users = () => {
         setUserList(res.data);
       }
     } catch (error) {
-      console.log("ggmu", error);
+      alert(error);
     }
   };
 
